@@ -1,17 +1,14 @@
-import React from 'react';
-import './App.css';
-import { Carousel } from './layouts/NavbarAndFooter/HomePage/Carousel';
-import { ExploreTopCars } from './layouts/NavbarAndFooter/HomePage/ExploreTopCars';
-import { Navbar } from './layouts/NavbarAndFooter/Navbar';
+import "./App.css";
+import { Footer } from "./layouts/NavbarAndFooter/Footer";
+import { Navbar } from "./layouts/NavbarAndFooter/Navbar";
+import { HomePage } from "./layouts/NavbarAndFooter/HomePage/HomePage";
 
-function App() {
+export const App = () => {
   return (
     <>
-    <Navbar/>
-    <ExploreTopCars/>
-    <Carousel/>
+      <Navbar />
+      <HomePage />
+      <Footer />
     </>
   );
-}
-
-export default App;
+};
