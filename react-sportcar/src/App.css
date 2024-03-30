@@ -3,7 +3,7 @@
 }
 
 .header {
-    background-image: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url("./Images/PublicImages/image-7.jpg");
+    background-image: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url("./Images/PublicImages/city_18.jpg");
     opacity: var(--mainOpacity);
     height: 25em !important;
 }
@@ -17,22 +17,26 @@
     height: 100%;
   }
 
+  body{
+    background-color: rgba(243, 233, 233, 0.74);
+  }
+
 .main-color {
-background-color: #0e76a8 ;
+background-color: #d40a25 ;
 }
 
 .col-image-left {
-    background-image: url("./Images/PublicImages/image-6.jpg");
+    background-image: url("./Images/PublicImages/city_17.jpg");
     height: 25em !important;
 }
 
 .col-image-right {
-    background-image: url("./Images/PublicImages/image-8.jpg");
+    background-image: url("./Images/CarImages/car_50.jpg");
     height: 25em !important;
 }
 
 .lost-image {
-    background-image: url("./Images/PublicImages/image-5.jpg");
+    background-image: url("./Images/PublicImages/city_19.jpg");
     height: 30em !important;
     width: "720"
 }
